@@ -51,5 +51,5 @@ class TextClassifier:
         # Аналогично, для второй модели
         processed_text = self.preprocess_text(text)
         prediction = self.tonality_model.predict(processed_text)
-        prediction = (prediction > self.threshold).astype(int)[0]
+        prediction = (prediction > self.threshold).astype(int)[0][0]
         return prediction

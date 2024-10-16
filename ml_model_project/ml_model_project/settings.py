@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-)6d!b7iqto78$1)a_jf-c6ne=4a30=8nhq@e97swpl+302_!#m'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = []
 
@@ -128,4 +128,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 os.environ["TF_ENABLE_ONEDNN_OPTS"] = "0"
 
-ALLOWED_HOSTS = ['89.169.160.155', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['89.169.160.155', '127.0.0.1', 'localhost', 'greenatommltest.ddns.net']
