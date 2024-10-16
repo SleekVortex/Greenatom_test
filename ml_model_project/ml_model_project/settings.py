@@ -127,3 +127,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 os.environ["TF_ENABLE_ONEDNN_OPTS"] = "0"
+
+ALLOWED_HOSTS = ['89.169.160.155', '127.0.0.1', 'localhost']
